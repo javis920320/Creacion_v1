@@ -1,0 +1,12 @@
+[
+  {
+    "ropa": [
+      { "id": "M", "name": "Talla M", "slug": "Size-M" },
+      { "id": "S", "name": "Talla M", "slug": "Size-M" },
+      { "id": "T", "name": "Talla M", "slug": "Size-M" },
+      { "id": "W", "name": "Talla M", "slug": "Size-M" },
+      { "id": "X", "name": "Talla M", "slug": "Size-M" },
+      { "id": "C", "name": "Talla M", "slug": "Size-M" }
+    ]
+  }
+]

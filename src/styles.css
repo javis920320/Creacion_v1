@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/*
+#262626
+#b6b6b6
+#e3e3e3
+#989898
+#5f5f5f
+
+*/
+
+:root {
+  --main-bg-color: rgba(242, 243, 245, 1);
+  --main-bg-color-dark: rgba(145, 158, 171, 0.12);
+  --bg-secunday: #131212;
+  --bg-btn-primary: #989898;
+  --bg-btn-secundary: #262626;
+  --bg-btn-terciario: #5f5f5f;
+  --tx-color: rgb(111, 112, 112);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  background-color: var(--main-bg-color);
+}
+button {
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 4px;
+  color: var(--bg-btn-primary);
+  font-size: 0.75rem;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+button:focus {
+  background-color: var(--bg-secunday);
+}
+.btn-primary {
+  background-color: var(--bg-btn-secundary);
+}
